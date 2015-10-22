@@ -1,0 +1,10 @@
+2015/08/28 20:54:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'System nie może odnaleźć żądanej akcji "tekst65".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('tekst65')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tekst65')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('formularztypy/t...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/test/formularztypy/tekst65
+---
